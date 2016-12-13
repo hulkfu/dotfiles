@@ -1,7 +1,11 @@
+#android eclipse
+local.properties
+
 .project
 *.swp
 *.swo
 *.sw*
+*.pyc
 
 # emacs
 *~
@@ -35,3 +39,5 @@ tramp
 
 # cask packages
 .cask/
+
+.byebug_history

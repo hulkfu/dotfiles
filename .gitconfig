@@ -1,0 +1,10 @@
+[push]
+  default = simple
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  b  = branch
