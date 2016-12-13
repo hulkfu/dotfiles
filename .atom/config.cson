@@ -1,0 +1,30 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "disable-keybindings":
+    exceptCommunityPackages: [
+      "emacs-plus"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  editor:
+    fontSize: 15
+    invisibles: {}
+  "release-notes":
+    viewedVersion: "0.82.0"
+  "tree-view":
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
