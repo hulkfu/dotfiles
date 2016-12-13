@@ -41,3 +41,6 @@ tramp
 .cask/
 
 .byebug_history
+
+# Mac
+*.DS_Store
