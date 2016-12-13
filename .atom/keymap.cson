@@ -9,10 +9,12 @@
 #
 # Here's an example taken from Atom's built-in keymap:
 #
-# '.editor':
-#   'enter': 'editor:newline'
 #
 # '.workspace':
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+
+'.editor':
+  'ctrl-enter': 'editor:newline-below'
+  'ctrl-shift-enter': 'editor:newline-above'
