@@ -22,6 +22,8 @@
   editor:
     fontSize: 15
     invisibles: {}
+  "exception-reporting":
+    userId: "2d5252d4-fd50-e100-afe5-190bbca402ff"
   "release-notes":
     viewedVersion: "0.82.0"
   "tree-view":
