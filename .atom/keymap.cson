@@ -17,6 +17,10 @@
 'body':
   'ctrl-shift-N': 'application:new-file'
 
+'.tree-view':
+  'a': 'tree-view:add-file'
+  'shift-A': 'tree-view:add-folder'
+
 '.editor':
   'ctrl-enter': 'editor:newline-below'
   'ctrl-shift-enter': 'editor:newline-above'
