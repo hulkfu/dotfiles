@@ -21,3 +21,6 @@
 
 'atom-workspace atom-text-editor':
   'ctrl-t': 'fuzzy-finder:toggle-file-finder'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-/': 'core:undo'
