@@ -24,10 +24,13 @@
     fontSize: 15
     invisibles: {}
   "exception-reporting":
-    userId: "2d5252d4-fd50-e100-afe5-190bbca402ff"
+    userId: "32bf75db-7250-c418-f277-fe45366ad7f4"
   "release-notes":
     viewedVersion: "0.82.0"
   "tree-view":
     showOnRightSide: true
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: true
+    removeTrailingWhitespace: true
