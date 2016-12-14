@@ -25,9 +25,12 @@
     $3
     """
 '.source.ruby':
-  'write commet':
+  'write long commet':
     'prefix': 'w'
     'body': '##\n# $1\n#'
+  'class':
+    'prefix': 'c'
+    'body': 'class ${1:Class}\n  $2\nend'
 
 '.text.html.ruby':
   'erb_render_block':
@@ -36,3 +39,9 @@
   'erb_exec_block':
     'prefix': 'r'
     'body': '<% $1 %>'
+  'render':
+    'prefix': 're'
+    'body': 'render "$1"$0'
+  'button_to':
+    'prefix': 'bt'
+    'body': '<%= button_to "${1:name}", ${2:path} %>'
