@@ -24,6 +24,10 @@
 
     $3
     """
+'.source.ruby':
+  'write commet':
+    'prefix': 'w'
+    'body': '##\n# $1\n#'
 
 '.text.html.ruby':
   'erb_render_block':
