@@ -13,6 +13,7 @@
       "atom-dark-syntax"
     ]
   "disable-keybindings":
+    allBundledPackages: true
     exceptCommunityPackages: [
       "emacs-plus"
     ]

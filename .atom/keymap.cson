@@ -20,4 +20,4 @@
   'ctrl-shift-enter': 'editor:newline-above'
 
 'atom-workspace atom-text-editor':
-  'ctrl-t': 'fuzzy-finder:toggle-buffer-finder'
+  'ctrl-t': 'fuzzy-finder:toggle-file-finder'
