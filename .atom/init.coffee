@@ -9,15 +9,3 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
-
-# move cursor across the ending symbols...
-EndingSymbolRegex = /\s*[)}>\]/'";:=-]/
-atom.commands.add 'atom-text-editor', 'custom:jump-over-symbol': (event) ->
-  editor = atom.workspace.getActiveTextEditor()
-  cursorMoved = false
-  for cursor in editor.getCursors()
-    range = cursor.getCurrentWordBufferRange(wordRegex: EndingSymbolRegex)
-    unless range.isEmpty()
-      cursor.setBufferPosition(range.end)
-      cursorMoved = true
-  event.abortKeyBinding() unless cursorMoved
