@@ -14,6 +14,8 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+'body':
+  'ctrl-shift-N': 'application:new-file'
 
 '.editor':
   'ctrl-enter': 'editor:newline-below'
@@ -24,3 +26,7 @@
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-/': 'core:undo'
+
+'atom-workspace atom-text-editor.emacs-plus:not([mini])':
+  'ctrl-j': 'symbols-view:toggle-file-symbols'
+  'ctrl-m': 'go-to-line:toggle'

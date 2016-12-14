@@ -24,3 +24,11 @@
 
     $3
     """
+
+'.text.html.ruby':
+  'erb_render_block':
+    'prefix': 'R'
+    'body': '<%= $1 %>'
+  'erb_exec_block':
+    'prefix': 'r'
+    'body': '<% $1 %>'
