@@ -27,6 +27,7 @@
 '.editor':
   'ctrl-enter': 'editor:newline-below'
   'ctrl-shift-enter': 'editor:newline-above'
+  'ctrl-shift-H': 'emacs-plus:backward-kill-word'
 
 'atom-workspace atom-text-editor':
   'ctrl-t': 'fuzzy-finder:toggle-file-finder'
