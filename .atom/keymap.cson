@@ -17,6 +17,9 @@
 'body':
   'ctrl-shift-N': 'application:new-file'
 
+'atom-workspace':
+  'alt-j': 'command-palette:toggle'
+
 '.tree-view':
   'a': 'tree-view:add-file'
   'shift-A': 'tree-view:add-folder'

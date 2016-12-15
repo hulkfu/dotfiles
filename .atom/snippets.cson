@@ -15,7 +15,7 @@
 #
 '.source.gfm':
   'title':
-    'prefix': '---'
+    'prefix': 'ti'
     'body': """
     ---
     layout: ${1: post}
@@ -24,6 +24,16 @@
 
     $3
     """
+  'code coffee':
+    'prefix': 'cc'
+    'body': '```coffee\n$1\n```\n$0'
+  'code ruby':
+    'prefix': 'cr'
+    'body': '```rb\n$1\n```\n$0'
+  'code js':
+    'prefix': 'cj'
+    'body': '```js\n$1\n```\n$0'
+
 '.source.ruby':
   'write long commet':
     'prefix': 'w'

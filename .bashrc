@@ -1,4 +1,5 @@
 
+alias a="atom"
 alias e="emacs"
 alias r="rails"
 
