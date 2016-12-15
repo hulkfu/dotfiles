@@ -8,10 +8,6 @@
       ".DS_Store"
     ]
     telemetryConsent: "no"
-    themes: [
-      "atom-dark-ui"
-      "atom-dark-syntax"
-    ]
   "disable-keybindings":
     allBundledPackages: true
     exceptCommunityPackages: [
