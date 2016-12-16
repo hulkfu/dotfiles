@@ -26,6 +26,8 @@
 '.tree-view':
   'a': 'tree-view:add-file'
   'shift-A': 'tree-view:add-folder'
+  'ctrl-h': 'tree-view:recursive-collapse-directory'
+  'ctrl-l': 'tree-view:recursive-expand-directory'
 
 '.editor':
   'ctrl-enter': 'editor:newline-below'
