@@ -35,6 +35,9 @@
     'body': '```js\n$1\n```\n$0'
 
 '.source.ruby':
+  'define method':
+    'prefix': 'd'
+    'body': 'def $1\n  $2\nend'
   'write long commet':
     'prefix': 'w'
     'body': '##\n# $1\n#'
