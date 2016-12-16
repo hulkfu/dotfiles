@@ -16,9 +16,12 @@
 #
 'body':
   'ctrl-shift-N': 'application:new-file'
+  'ctrl-q': 'core:close'
+  'ctrl-u': 'tree-view:reveal-active-file'
 
 'atom-workspace':
-  'alt-j': 'command-palette:toggle'
+  'ctrl-j': 'command-palette:toggle'
+  'ctrl-o': 'advanced-open-file:toggle'
 
 '.tree-view':
   'a': 'tree-view:add-file'
@@ -37,7 +40,9 @@
   'ctrl-/': 'core:undo'
 
 'atom-workspace atom-text-editor.emacs-plus:not([mini])':
-  'ctrl-j': 'symbols-view:toggle-file-symbols'
+  'alt-j': 'symbols-view:toggle-file-symbols'
   'ctrl-m': 'go-to-line:toggle'
   'ctrl-]': 'editor:indent-selected-rows'
   'ctrl-[': 'editor:outdent-selected-rows'
+  'ctrl-o': 'unset!'
+  'ctrl-j': 'unset!'
