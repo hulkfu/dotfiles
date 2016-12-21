@@ -24,6 +24,10 @@
   'ctrl-o': 'advanced-open-file:toggle'
   'alt-o':  'window:focus-next-pane'
 
+'atom-workspace atom-pane':
+  'ctrl-alt-=': 'pane:increase-size'
+  'ctrl-alt--': 'pane:decrease-size'
+
 '.tree-view':
   'a': 'tree-view:add-file'
   'shift-A': 'tree-view:add-folder'
