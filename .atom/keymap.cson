@@ -22,6 +22,7 @@
 'atom-workspace':
   'ctrl-j': 'command-palette:toggle'
   'ctrl-o': 'advanced-open-file:toggle'
+  'alt-o':  'window:focus-next-pane'
 
 '.tree-view':
   'a': 'tree-view:add-file'
