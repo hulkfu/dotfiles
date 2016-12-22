@@ -45,7 +45,7 @@
     'prefix': 'c'
     'body': 'class ${1:Class}\n  $2\nend'
 
-'.text.html.ruby':
+'.text.html.ruby .source.js.rails .source.js.jquery':
   'erb_render_block':
     'prefix': 'R'
     'body': '<%= $1 %>'
