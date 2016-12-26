@@ -18,8 +18,8 @@
     'prefix': 'ti'
     'body': """
     ---
-    layout: ${1: post}
-    title: ${2: title}
+    layout: ${1:post}
+    title: ${2:title}
     ---
 
     $3
