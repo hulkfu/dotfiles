@@ -45,7 +45,7 @@
     'prefix': 'c'
     'body': 'class ${1:Class}\n  $2\nend'
 
-'.text.html.ruby .source.js.rails .source.js.jquery':
+'.text.html.ruby, .source.js.rails, .source.js.jquery':
   'erb_render_block':
     'prefix': 'R'
     'body': '<%= $1 %>'
@@ -55,6 +55,9 @@
   'render':
     'prefix': 're'
     'body': 'render "$1"$0'
+  'image_tag':
+    'prefix': 'it'
+    'body': '<%= link_to image_tag(${1:img_src}), ${2:path} %>'
   'button_to':
     'prefix': 'bt'
     'body': '<%= button_to "${1:name}", ${2:path} %>'
