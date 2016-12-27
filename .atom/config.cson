@@ -5,7 +5,6 @@
   autosave:
     enabled: true
   core:
-    allowPendingPaneItems: false
     ignoredNames: [
       ".git"
       ".svn"
