@@ -29,7 +29,7 @@
     'body': '```coffee\n$1\n```\n$0'
   'code ruby':
     'prefix': 'cr'
-    'body': '```rb\n$1\n```\n$0'
+    'body': '```ruby\n$1\n```\n$0'
   'code js':
     'prefix': 'cj'
     'body': '```js\n$1\n```\n$0'
