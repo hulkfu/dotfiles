@@ -20,7 +20,7 @@
   'ctrl-u': 'tree-view:reveal-active-file'
   'ctrl-shift-U': 'tree-view:toggle'
   'ctrl-backspace': 'editor:delete-to-beginning-of-subword'
-  'ctrl-x q': 'pane:close-other-items'
+  'ctrl-shift-Q': 'pane:close-other-items'
 
 'atom-workspace':
   'ctrl-j': 'command-palette:toggle'
