@@ -1,0 +1,14 @@
+packages: [
+  "advanced-open-file"
+  "ascii-art"
+  "atom-alignment"
+  "atom-beautify"
+  "clipboard-plus"
+  "disable-keybindings"
+  "emacs-plus"
+  "git-plus"
+  "language-markdown"
+  "language-swift"
+  "multi-cursor"
+  "package-sync"
+]

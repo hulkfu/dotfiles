@@ -2,6 +2,9 @@
   autosave:
     enabled: true
   core:
+    disabledPackages: [
+      "language-gfm"
+    ]
     ignoredNames: [
       ".git"
       ".svn"
