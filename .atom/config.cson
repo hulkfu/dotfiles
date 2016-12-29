@@ -24,6 +24,9 @@
     invisibles: {}
   "exception-reporting":
     userId: "32bf75db-7250-c418-f277-fe45366ad7f4"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "release-notes":
     viewedVersion: "0.82.0"
   "tree-view":

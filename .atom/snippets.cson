@@ -13,7 +13,7 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
-'.source.gfm':
+'.source.gfm, .text.md':
   'title':
     'prefix': 'ti'
     'body': """
@@ -55,9 +55,12 @@
   'render':
     'prefix': 're'
     'body': 'render "$1"$0'
-  'image_tag':
+  'link_to image_tag':
     'prefix': 'it'
     'body': '<%= link_to image_tag(${1:img_src}), ${2:path} %>'
+  'image_tag':
+    'prefix': 'im'
+    'body': '<%= image_tag(${1:img_src}, class: "$2") %>'
   'button_to':
     'prefix': 'bt'
     'body': '<%= button_to "${1:name}", ${2:path} %>'
