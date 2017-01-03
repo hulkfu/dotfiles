@@ -49,11 +49,12 @@
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-/': 'core:undo'
+  'ctrl-alt-/': 'core:redo'
 
 'atom-workspace atom-text-editor.emacs-plus:not([mini])':
   'ctrl-3': 'editor:toggle-line-comments'
-  'alt-j': 'symbols-view:toggle-file-symbols'
-  'ctrl-m': 'go-to-line:toggle'
+  'ctrl-m': 'symbols-view:toggle-file-symbols'
+  'alt-m': 'go-to-line:toggle'
   'ctrl-]': 'editor:indent-selected-rows'
   'ctrl-[': 'editor:outdent-selected-rows'
   'ctrl-shift-J': 'emacs-plus:open-line'
