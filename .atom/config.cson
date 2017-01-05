@@ -2,6 +2,7 @@
   autosave:
     enabled: true
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "language-gfm"
     ]
