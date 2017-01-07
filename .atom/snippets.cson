@@ -19,7 +19,7 @@
     'body': """
     ---
     layout: ${1:post}
-    title: ${2:title}
+    title: $2
     ---
 
     $3
