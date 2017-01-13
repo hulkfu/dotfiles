@@ -18,7 +18,7 @@
   'ctrl-shift-N': 'application:new-file'
   'ctrl-q': 'core:close'
   'ctrl-u': 'tree-view:reveal-active-file'
-  'ctrl-shift-U': 'tree-view:toggle'
+  'alt-u': 'tree-view:toggle'
   'ctrl-backspace': 'editor:delete-to-beginning-of-subword'
   'ctrl-shift-Q': 'pane:close-other-items'
   'ctrl-shift-S': 'project-find:show'
