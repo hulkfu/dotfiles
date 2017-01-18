@@ -45,6 +45,11 @@
     'prefix': 'c'
     'body': 'class ${1:Class}\n  $2\nend'
 
+'.source.coffee':
+  'write long commet':
+    'prefix': 'w'
+    'body': '##\n# $1\n#'
+
 '.text.html.ruby, .source.js.rails, .source.js.jquery':
   'erb_render_block':
     'prefix': 'R'
