@@ -24,6 +24,12 @@
 
     $3
     """
+  'code':
+    'prefix': 'c'
+    'body': '```$1\n$2\n```\n$0'
+  'code bash':
+    'prefix': 'cb'
+    'body': '```bash\n$1\n```\n$0'
   'code coffee':
     'prefix': 'cc'
     'body': '```coffee\n$1\n```\n$0'
