@@ -9,6 +9,5 @@ packages: [
   "git-plus"
   "language-markdown"
   "language-swift"
-  "multi-cursor"
   "package-sync"
 ]
