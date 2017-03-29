@@ -39,6 +39,9 @@
   'code js':
     'prefix': 'cj'
     'body': '```js\n$1\n```\n$0'
+  'code html':
+    'prefix': 'ch'
+    'body': '```html\n$1\n```\n$0'
 
 '.source.ruby':
   'define method':
