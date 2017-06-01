@@ -10,4 +10,5 @@ packages: [
   "language-markdown"
   "language-swift"
   "package-sync"
+  "platformio-ide-terminal"
 ]
