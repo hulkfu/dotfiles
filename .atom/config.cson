@@ -32,8 +32,7 @@
     viewedVersion: "0.82.0"
   "tree-view":
     showOnRightSide: true
-  welcome:
-    showOnStartup: false
+  welcome: {}
   whitespace:
     ensureSingleTrailingNewline: true
     removeTrailingWhitespace: true

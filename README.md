@@ -2,6 +2,10 @@
 
 My dot files.
 
+.bashrc，.gitconfig 需要手动复制内容。
+
+其它的 .gitignore 软链接。
+
 ## Atom
 先把 .atom 下面文件软链接到 ~/.atom/ 目录里：
 
