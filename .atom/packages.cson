@@ -11,4 +11,5 @@ packages: [
   "language-swift"
   "package-sync"
   "platformio-ide-terminal"
+  "Sublime-Style-Column-Selection"
 ]
