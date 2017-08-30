@@ -87,3 +87,9 @@
   'cache':
     'prefix': 'cc'
     'body': '<% cache $1 do %>\n  $2\n<% end %>'
+
+
+'.source.python':
+  'write long commet':
+    'prefix': 'w'
+    'body': '"""\n$1\n"""\n'
