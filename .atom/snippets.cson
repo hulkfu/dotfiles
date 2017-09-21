@@ -92,4 +92,4 @@
 '.source.python':
   'write long commet':
     'prefix': 'w'
-    'body': '"""\n$1\n"""\n'
+    'body': '"""$1\n"""\n'
