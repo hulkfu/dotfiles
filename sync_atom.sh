@@ -2,7 +2,7 @@
 
 echo "Sync Atom ..."
 
-function link {
+link() {
   target_filepath="$HOME/.atom/$1" 
   if [ -f $target_filepath ]; then
     echo "$1 already exists and remove it."
