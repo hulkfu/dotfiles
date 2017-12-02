@@ -24,6 +24,7 @@
   editor:
     fontSize: 15
     invisibles: {}
+    softWrap: true
   "exception-reporting":
     userId: "32bf75db-7250-c418-f277-fe45366ad7f4"
   "package-sync":
