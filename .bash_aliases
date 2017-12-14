@@ -16,3 +16,5 @@ alias gap="git add --all && git commit -m'update' && git push"
 alias l="ls"
 alias ll="ls -alh"
 
+alias msfconsole="pushd $HOME/Codes/ruby/metasploit-framework && ./msfconsole && popd"
+
