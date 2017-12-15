@@ -45,6 +45,9 @@
   'code python':
     'prefix': 'cp'
     'body': '```python\n$1\n```\n$0'
+  'code golang':
+    'prefix': 'cg'
+    'body': '```go\n$1\n```\n$0'    
 
 '.source.ruby':
   'define method':
