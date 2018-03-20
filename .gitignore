@@ -47,3 +47,7 @@ tramp
 
 # Python
 /__pycache__
+
+# C
+*.o
+*.gmo
