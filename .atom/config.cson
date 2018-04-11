@@ -33,7 +33,7 @@
   "release-notes":
     viewedVersion: "0.82.0"
   "tree-view":
-    showOnRightSide: true
+    showOnRightSide: false
   welcome:
     showOnStartup: false
   whitespace:
