@@ -4,6 +4,8 @@ My dot files.
 
 .bashrc，.gitconfig 需要手动复制内容。
 
+Macos is .bash_profile
+
 其它的 .gitignore 软链接。
 
 ## Atom
