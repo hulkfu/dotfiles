@@ -10,7 +10,7 @@ alias gci="git commit"
 alias gps="git push"
 alias gpl="git pull"
 alias gdf="git diff"
-alias gai="git add --all && git commit -m'Update: `git diff --name-only | tr "\n" " "`file(s).'"
+alias gai="git add --all && git commit -m'Update.'"
 alias gap="gai && git push"
 
 alias l="ls"
