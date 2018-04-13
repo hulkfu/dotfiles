@@ -7,11 +7,8 @@ files=( 'init.coffee' 'packages.cson' 'config.cson' 'keymap.cson' 'snippets.cson
 
 for file in "${files[@]}"
 do
-    path="$atom_home/$file" 
-    echo "cechk $path ..."
-    if [ -f $path ]; then
-        echo "$file exist"
-	rm $path
-    fi
-    ln -s "$PWD/$file" $path
+    path="$atom_home/$file"
+    echo "check $path ..."
+    rm -rf $path
+    ln -s "$PWD/.atom/$file" $path
 done
