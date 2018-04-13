@@ -4,6 +4,7 @@ alias e="emacs"
 alias r="rails"
 alias i="ipython"
 
+alias ga="git add"
 alias gc="git clone"
 alias gst="git status"
 alias gci="git commit"
