@@ -1,40 +1,20 @@
 "*":
+  "atom-ide-ui":
+    use: {}
   autosave:
     enabled: true
   core:
-    autoHideMenuBar: true
     disabledPackages: [
       "language-gfm"
     ]
-    ignoredNames: [
-      ".git"
-      ".svn"
-      ".DS_Store"
-    ]
     telemetryConsent: "no"
-  "disable-keybindings":
-    allBundledPackages: true
-    exceptCommunityPackages: [
-      "emacs-plus"
-    ]
-    prefixKeys: [
-      "ctrl-k"
-    ]
   editor:
-    fontSize: 15
-    invisibles: {}
+    showInvisibles: true
     softWrap: true
   "exception-reporting":
-    userId: "32bf75db-7250-c418-f277-fe45366ad7f4"
-  "package-sync":
-    createOnChange: true
-    forceOverwrite: true
-  "release-notes":
-    viewedVersion: "0.82.0"
-  "tree-view":
-    showOnRightSide: false
+    userId: "62336db6-5ea8-43c7-a2a7-65d97081fcbb"
+  "platformio-ide-terminal":
+    core:
+      workingDirectory: "Active File"
   welcome:
     showOnStartup: false
-  whitespace:
-    ensureSingleTrailingNewline: true
-    removeTrailingWhitespace: true

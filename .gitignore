@@ -44,6 +44,7 @@ tramp
 
 # Mac
 *.DS_Store
+*.profraw
 
 # Python
 /__pycache__
@@ -51,3 +52,4 @@ tramp
 # C
 *.o
 *.gmo
+myvirtualenv/
