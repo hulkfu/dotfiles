@@ -8,6 +8,8 @@ Macos is .bash_profile
 
 其它的 .gitignore 软链接。
 
+还有 .bash_aliases
+
 ## Atom
 
 执行 init_atom.sh 脚本即可把 .atom 下面的配置文件软链接到 ~/.atom/ 目录里：

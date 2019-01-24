@@ -47,7 +47,7 @@
     'body': '```python\n$1\n```\n$0'
   'code golang':
     'prefix': 'cg'
-    'body': '```go\n$1\n```\n$0'    
+    'body': '```go\n$1\n```\n$0'
 
 '.source.ruby':
   'define method':
@@ -95,4 +95,7 @@
 '.source.python':
   'write long commet':
     'prefix': 'w'
-    'body': '"""$1\n"""\n'
+    'body': '"""$1\n"""'
+  'write block commet':
+    'prefix': 'b'
+    'body': '############################################\n# $1\n############################################'
